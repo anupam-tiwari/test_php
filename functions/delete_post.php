@@ -1,8 +1,8 @@
 <?php
 
-$con = mysqli_connect("localhost","root","","social_network") or die("Connection was not established");
+//$con = mysqli_connect("localhost","root","","social_network") or die("Connection was not established");
 
-//$con = mysqli_connect("remotemysql.com" ,"Ncmv0vMxAr" ,"Xgee11P1le" ,"Ncmv0vMxAr");
+$con = mysqli_connect("remotemysql.com" ,"Ncmv0vMxAr" ,"Xgee11P1le" ,"Ncmv0vMxAr");
 if(!$con){
     echo "Not connected";
 }else{
